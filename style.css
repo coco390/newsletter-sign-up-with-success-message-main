@@ -1,0 +1,98 @@
+/*Global Styling*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #242742;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Form Styling*/
+input{
+    width: 376px;
+    height: 56px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.btn-subscribe{
+    width: 376px;
+    height: 56px;
+    background-color: #242742;
+    color: white;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 12px;
+    font-weight: 700;
+    color: #242742;
+    margin-bottom: 0.5rem;
+}
+
+
+/*Content Styling*/
+.card-container {
+    width: 928px;
+    height: 641px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.desktop-img img{
+    width: 400px;
+    height: 593px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+.card-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.card-content p{
+    color: #242742;
+    font-size: 16px;
+}
+
+#join{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-checklist {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card-checklist .item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.card-content img {
+    width: 21px;
+    height: 21px;
+}
+
