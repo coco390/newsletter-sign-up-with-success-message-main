@@ -15,31 +15,6 @@ body {
     height: 100vh;
 }
 
-/*Form Styling*/
-input{
-    width: 376px;
-    height: 56px;
-    border-radius: 10px;
-    margin-bottom: 1rem;
-}
-
-.btn-subscribe{
-    width: 376px;
-    height: 56px;
-    background-color: #242742;
-    color: white;
-    border-radius: 10px;
-    font-size: 16px;
-    font-weight: 700;
-}
-
-label {
-    font-size: 12px;
-    font-weight: 700;
-    color: #242742;
-    margin-bottom: 0.5rem;
-}
-
 
 /*Content Styling*/
 .card-container {
@@ -99,6 +74,33 @@ label {
     height: 21px;
 }
 
+/*Form Styling*/
+input{
+    width: 376px;
+    height: 56px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.btn-subscribe{
+    width: 376px;
+    height: 56px;
+    background-color: #242742;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+label {
+    font-size: 12px;
+    font-weight: 700;
+    color: #242742;
+    margin-bottom: 1rem;
+}
+
+
 #email{
     border-color: #19182B;
     opacity: 0.5;
@@ -106,4 +108,59 @@ label {
 }
 
 /*Success Message Style*/
+.success-card {
+    display: none;
+    position: fixed;
+    background-color: white;
+    border-radius: 2rem;
+}
 
+.success-content {
+    width: 504px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3.5rem;
+}
+
+.success-content h2 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #242742;
+    margin-bottom: 2rem;
+}
+
+.success-content p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.success-content img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 1rem;
+}
+
+.btn-dismiss{
+    width: 376px;
+    height: 56px;
+    background-color: #242742;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#user-email{
+    color: #242742;
+    font-weight: bold;
+}
+
+/*Email Error*/
+#email-error {
+    color: red;
+    font-size: 1rem;
+    display: block;
+}
