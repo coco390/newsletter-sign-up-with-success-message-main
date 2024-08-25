@@ -81,6 +81,8 @@ input{
     border-radius: 10px;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    border-color: #19182B;
+    opacity: 0.5;
 }
 
 .btn-subscribe{
@@ -108,8 +110,6 @@ label {
 
 
 #email{
-    border-color: #19182B;
-    opacity: 0.5;
     text-indent: 1rem;
 }
 
