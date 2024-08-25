@@ -29,6 +29,8 @@ input{
     background-color: #242742;
     color: white;
     border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 label {
@@ -96,4 +98,12 @@ label {
     width: 21px;
     height: 21px;
 }
+
+#email{
+    border-color: #19182B;
+    opacity: 0.5;
+    text-indent: 1rem;
+}
+
+/*Success Message Style*/
 
