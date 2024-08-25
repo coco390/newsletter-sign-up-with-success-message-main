@@ -31,7 +31,8 @@ form.addEventListener('submit', function (event) {
     successCard.style.display = 'block';
     userEmailSpan.textContent = email;
   } else {
-    emailError.textContent = 'Please provide a valid email address'; // Show error message
+    emailError.textContent = 'Valid email required'; // Show error message
+    emailInput.classList.add('input-error');
   }
 });
 
