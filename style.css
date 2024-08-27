@@ -185,4 +185,33 @@ label {
 }
 
 /*Media Query for Mobile*/
+@media screen and (max-width: 375px) {
+    .card-container {
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        background-color: white;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        border-radius: 0;
+        padding: 0;
+    }
 
+    .desktop-img img {
+        width: 375px;
+        height: 284px;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+
+    .card-content {
+        text-align: left;
+        margin-right: 0;
+        padding: 2rem;
+    }
+
+    .card-content h1{
+        font-size: 40px;
+    }
+}

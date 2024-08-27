@@ -43,9 +43,12 @@
       </form>
     </div>
   <!-- Sign-up form end -->
-    <div class="desktop-img">
-      <img src="./assets/images/illustration-sign-up-desktop.svg" alt="sign up image">
-    </div>
+    <picture class="desktop-img">
+      <!-- Image for screens 375px wide or smaller -->
+      <source srcset="./assets/images/illustration-sign-up-mobile.svg" media="(max-width: 375px)">
+      <!-- Default image for larger screens -->
+      <img src="./assets/images/illustration-sign-up-desktop.svg" alt="Sign up image">
+    </picture>
   </div>
 </main>
   <!-- Success message start -->
