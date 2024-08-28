@@ -18,7 +18,7 @@ This is a solution to the Newsletter Sign-Up with Success Message challenge on F
 
 ## Live Site
 
-You can view the live site here: [View Live](https://your-username.github.io/newsletter-signup-with-success-message/)
+You can view the live site here: [View Live](https://coco390.github.io/newsletter-sign-up-with-success-message-main/)
 
 ## Features
 
