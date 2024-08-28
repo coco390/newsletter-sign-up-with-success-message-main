@@ -22,6 +22,7 @@ body {
     height: 641px;
     background-color: white;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     border-radius: 2rem;
@@ -175,8 +176,7 @@ label {
     color: #FF6155;
     font-size: 12px;
     font-weight: 700;
-    display: inline;
-    margin-left: 11rem;
+    display: block;
 }
 
 .input-error {
@@ -185,21 +185,24 @@ label {
 }
 
 /*Media Query for Mobile*/
-@media screen and (max-width: 375px) {
-    .card-container {
-        max-width: 100%;
-        width: auto;
+@media (max-width: 375px) {
+    body {
         height: auto;
-        background-color: white;
+    }
+
+    .card-container {
+        width: 100%;
+        height: auto;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         border-radius: 0;
-        padding: 0;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     .desktop-img img {
-        width: 375px;
+        width: 100%;
         height: 284px;
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem;
@@ -208,10 +211,18 @@ label {
     .card-content {
         text-align: left;
         margin-right: 0;
-        padding: 2rem;
+        padding: 24px;
     }
 
     .card-content h1{
         font-size: 40px;
+    }
+
+    input{
+        width: 327px;
+    }
+
+    .btn-subscribe{
+        width: 327px;
     }
 }
