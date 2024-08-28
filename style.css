@@ -188,6 +188,7 @@ label {
 @media (max-width: 375px) {
     body {
         height: auto;
+        background-color: white;
     }
 
     .card-container {
@@ -224,5 +225,31 @@ label {
 
     .btn-subscribe{
         width: 327px;
+    }
+
+/*Success Media Query Styling*/
+    .success-card {
+        border-radius: 0;
+        position: relative;
+        height: 100%;
+    }
+
+    .success-content {
+        width: 327px;
+        padding: 0;
+    }
+
+    .success-content h2 {
+        font-size: 40px;
+    }
+
+    .success-content p {
+        line-height: 1.5rem;
+    }
+
+    .btn-dismiss {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
     }
 }
