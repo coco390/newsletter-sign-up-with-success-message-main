@@ -230,17 +230,20 @@ label {
 /*Success Media Query Styling*/
     .success-card {
         border-radius: 0;
-        position: relative;
+        position: absolute;
+        top: 0;
         height: 100%;
     }
 
     .success-content {
         width: 327px;
         padding: 0;
+        margin-top: 2rem;
     }
 
     .success-content h2 {
         font-size: 40px;
+        margin-top: 2rem;
     }
 
     .success-content p {
@@ -251,5 +254,6 @@ label {
         width: 100%;
         position: absolute;
         bottom: 0;
+        margin-bottom: 1rem;
     }
 }
